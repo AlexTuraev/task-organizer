@@ -1,0 +1,45 @@
+.list-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.input-label{
+    position: relative;
+    width: 85%;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+    border: none;
+}
+
+.input-label:focus{
+    outline: none;
+    outline-offset: 0;
+}
+
+.list-item__span{
+    font: 1.2rem sans-serif;
+    color: black;
+    margin-left: .2rem;
+    cursor: pointer;
+}
+.list-item__done{
+    text-decoration: line-through;
+}
+.list-item__marked{
+    color: cornflowerblue;
+    font-weight: 700;
+}
+.list-item__btn{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 0 2px;
+    color: white;
+}
+.checkmark{
+    background-color: green;
+}
+.delbtn{
+    background-color: red;
+}
